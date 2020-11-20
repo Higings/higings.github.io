@@ -1,0 +1,127 @@
+#tab-cv {
+	font-size: 8px;
+}
+
+#tab-cv h2 {
+	font-size: 12px;
+}
+
+#logo {
+	height: 60px;
+	width: 60px;
+	border-radius: 75px;
+}
+
+#photo-id{
+	height: 100px;
+	width: 100px;
+	border-radius:150px;
+}
+
+#col2, #col3 h2, #col4 h2{
+	text-align: center;
+}
+
+#row1, h2{
+	border-bottom: 4px dotted red;
+}
+
+ul {
+	margin-left: 6px;
+	padding-left: 6px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 47%;
+}
+
+#col3 p{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#col3 a{
+	text-decoration: none;
+	color: #e54134;
+}
+
+.second::marker {
+	content: "\003E";
+}
+
+#col4-row1, #col4-row2{
+	padding: 5% 0;
+}
+
+footer.container {
+	background-color: #e54134;
+	width: 100%;
+}
+
+footer img {
+	height: 20px;
+	width: 20px;
+}
+
+.special {
+	height: 20px;
+	width: 10px;
+}
+
+.red {
+	color: #e54134;
+}
+
+.sstitre {
+	text-transform: uppercase;
+}
+
+table.competences {
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	font-weight: normal;
+}
+
+th.separate {
+	padding-left: 50px;
+}
+
+@media (min-width: 1200px){
+th.coltab1 {
+	padding-left: 115px;
+}
+}
+
+@media (min-width:992px) and (max-width: 1199px){
+	th.coltab1 {
+	padding-left: 75px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	th.coltab1 {
+	padding-left: 22px;
+}
+}
+
+@media (max-width: 767px){
+	th {
+	padding-left: 120px;
+}
+}
+
+@media (min-width: 768px){
+	footer.container{
+		height: 70px;
+		text-align: center;
+	}
+	footer div {
+		padding-top: 25px;
+	}
+}
+
+@media (max-width: 767px){
+	footer div.foot{
+		padding-left: 25%;
+	}
+}
