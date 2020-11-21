@@ -98,6 +98,11 @@ th {
 	font-weight: normal;
 }
 
+th.coltab1{
+	width: 50%;
+	margin: auto;
+}
+
 @media (min-width: 1200px){
 th.coltab1 {
 	padding-left: 115px;
@@ -117,8 +122,13 @@ th.coltab1 {
 }
 
 @media (max-width: 767px){
-	th.postab{
-		padding-left: 180px;
+	table.competences {
+		width: 50%;
+		margin: auto;
+	}
+	table th.separate {
+		width: 50%;
+		margin: auto;
 	}
 }
 
