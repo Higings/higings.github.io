@@ -6,6 +6,14 @@
 	font-size: 12px;
 }
 
+#tab-cv #col1{
+	font-size: 10px;
+}
+
+#nom {
+	font-weight: bold;
+}
+
 #logo {
 	height: 60px;
 	width: 60px;
@@ -23,7 +31,7 @@
 }
 
 #row1, h2{
-	border-bottom: 4px dotted red;
+	border-bottom: 1px dotted red;
 }
 
 ul {
@@ -86,6 +94,10 @@ th.separate {
 	padding-left: 50px;
 }
 
+th {
+	font-weight: normal;
+}
+
 @media (min-width: 1200px){
 th.coltab1 {
 	padding-left: 115px;
@@ -105,9 +117,9 @@ th.coltab1 {
 }
 
 @media (max-width: 767px){
-	th {
-	padding-left: 120px;
-}
+	th.postab{
+		padding-left: 180px;
+	}
 }
 
 @media (min-width: 768px){
