@@ -136,7 +136,7 @@ th.coltab1 {
 		width: 40%;
 	}
 	#description {
-		word-wrap: break-word;
+		overflow-wrap: break-word;
 	}
 }
 
