@@ -26,6 +26,7 @@
 	border-radius:150px;
 }
 
+
 #col2, #col3 h2, #col4 h2{
 	text-align: center;
 }
@@ -129,6 +130,10 @@ th.coltab1 {
 	table th.separate {
 		width: 50%;
 		margin: auto;
+	}
+	#col1 {
+		margin: auto;
+		width: 40%;
 	}
 }
 
