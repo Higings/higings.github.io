@@ -135,6 +135,9 @@ th.coltab1 {
 		margin: auto;
 		width: 40%;
 	}
+	#description {
+		word-wrap: break-word;
+	}
 }
 
 @media (min-width: 768px){
