@@ -13,8 +13,16 @@
 #navigation a{
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #e54134;
+	color: #808080;
 	margin-right: 5%;
+}
+
+/*#dropdownmenu {
+	font-size: 11px;
+}*/
+
+a#red {
+	color: #e54134;
 }
 
 header h1 {
@@ -49,4 +57,18 @@ header{
 .sepia img:hover {
 	-webkit-filter: sepia(0);
 	filter: sepia(0);
+}
+
+a#red:hover {
+    color:#808080;
+    background-color: white;
+}
+
+#container {
+	overflow-x: hidden;
+}
+
+#bouton {
+	display: none;
+	color: #e54134;
 }
