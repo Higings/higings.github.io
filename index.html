@@ -6,6 +6,7 @@
     <title>Works in Progress</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+ 	<link rel="stylesheet" href="css/articlestyles.css">
   </head>
 
 <body>
@@ -20,26 +21,51 @@
         <span class="icon-bar"></span>
      </button>
 	<div id="navigation" class="collapse navbar-collapse">
-		<a href="">projets personnels</a>
-		<a href="">opla</a>
-		<a href="">mdw</a>
-		<a href="">afaa</a>
-		<a href="">magma</a>
-		<a href="">pfe</a>
-		<a href="CV.html">en&nbsp;savoir+</a>
-		<a href="">rechercher</a>
+		<ul id="dropdownmenu" class="nav navbar-nav">
+			<li>
+				<a href="" id="red">projets&nbsp;personnels</a>
+			</li>
+			<li>
+				<a href="" id="red">opla</a>
+			</li>
+			<li>
+				<a href="" id="red">mdw</a>
+			</li>
+			<li>
+				<a href="" id="red">afaa</a>
+			</li>
+			<li>
+				<a href="" id="red">magma</a>
+			</li>
+			<li>
+				<a href="" id="red">pfe</a>
+			</li>
+			<li>
+				<a href="CV.html" id="red">en&nbsp;savoir+</a>
+			</li>
+			<li>
+        		<a href="">Rechercher</a>
+			</li>
+		</ul>
 	</div>
 </header>
 
 <div id="main-content">
 	<div class="sepia"><a id="main-content-row1" href=""></a></div>
-	<div class="sepia" id="main-content-row2"><a href=""><img src="images/XDW2.jpg" /></a><a href=""><img src="images/XDW1.jpg" /></a></div>
+	<div class="sepia" id="main-content-row2"><img onClick='loadArticle();' src="images/XDW2.jpg" /><img src="images/XDW1.jpg" /></div>
 
 </div>
+
+<div id="bouton"><button type="button" class="btn" aria-label="Left Align" onClick='deloadArticle();'>
+  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+</button></div>
+
+<div id="container"></div>
   
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/scriptarticle.js"></script>
 </body>
 </html>
