@@ -8,31 +8,52 @@
     <link rel="stylesheet" href="css/articlestyles.css">
   </head>
 
-<body>
+<body id="article">
 
-<div class="container">
-		<div id="cadre" class="col-sm-8">
+<div class="container-fluid">
+		<div id="cadre" class="col-sm-8 hidden-phone">
 			<div class="row">
-				<div class="col-sm-8">
-					<img class="img1 hsur2" src="pictures/1.jpg" />
+				<div class="col-sm-8 perso-padding">
+					<img id="one" class="images" src="pictures/1.jpg" />
 				</div>
 				<div class="col-sm-4">
 					<div class="row">
-						<img class="img1 hsur4" src="pictures/2.jpg" />
+						<img class="images img1-2" src="pictures/2.jpg" />
 					</div>
 					<div class="row">
-						<img class="img1 hsur4" src="pictures/3.jpg" />
+						<img id="two" class="images img1-2" src="pictures/3.jpg" />
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<img class="img2 hsur4" src="pictures/4.jpg" /><img class="img2 hsur4" src="pictures/5.jpg" /><img class="img2 hsur4" src="images/festicab/6.jpg" />
+				<div class="col-sm-4 perso-padding">
+					<img id="ref" class="images" src="pictures/4.jpg" />
+				</div>
+				<div class="col-sm-4 perso-padding">
+					<img class="images cible" src="pictures/5.jpg" />
+				</div>
+				<div class="col-sm-4 no-padding">
+					<img class="images cible" src="images/festicab/6.jpg" />
+				</div>
 			</div>
 			<div class="row">
-				<img class="img3 hsur4" src="pictures/7.jpg" /><img class="img3 hsur4" src="pictures/8.jpg" /><img class="img3 hsur4" src="pictures/9.jpg" /><img class="img3 hsur4" src="pictures/10.jpg" />
+				<img class="img3" src="pictures/7.jpg" /><img class="img3" src="pictures/8.jpg" /><img class="img3" src="pictures/9.jpg" /><img class="img3" src="pictures/10.jpg" />
 			</div>
 		</div>
-		<div class="col-sm-4">
+		<div class="visible-phone">    
+  			<div class="container">
+    			<div class="slider">
+      				<img class="active img-phone" src="pictures/1.jpg">
+      				<img class="img-phone" src="pictures/4-bis.jpg">
+      				<img class="img-phone" src="pictures/6.jpg">
+    			</div>
+    			<div class="cont-btn">
+      				<div class="btn-nav left"><</div>
+      				<div class="btn-nav right">></div>
+    			</div>
+  			</div>
+		</div>
+		<div id="article"class="col-sm-4">
 			<h2>Le Festival des Cabanes</h2>
 			Avec Valentine SKAWINSKI<br />Mai 2016<br />Concours d'idées-non retenu<br />Haute Savoie-France<br /><br />
 			Première edition de ce concours aboutissant à la construction de 12 cabanes créant un parcours au pied du Massif des Bauges.<br /><br />
@@ -41,13 +62,10 @@
 		</div>
 </div>
 
-
-
-
-<script src="js/jquery-3.5.1.min.js"></script>
+<!--<script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/script.js"></script>-->
 <script src="js/scriptarticle.js"></script>
 </body>
 </html>
