@@ -25,6 +25,9 @@
 	height: auto;
 }
 
+#col1 {
+	margin-top: 140px;
+}
 
 #col2, #col3 h2, #col4 h2{
 	text-align: center;
@@ -121,17 +124,29 @@ th.coltab1 {
 	#tab-cv #col1{
 	font-size: 14px;
 }
+
+#col1 {
+	margin-top: 140px;
+}
 }
 
 @media (min-width:992px) and (max-width: 1199px){
 	th.coltab1 {
 	padding-left: 75px;
 }
+
+#col1 {
+	margin-top: 80px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 	th.coltab1 {
 	padding-left: 22px;
+}
+
+#col1 {
+	margin-top: 40px;
 }
 }
 
@@ -151,6 +166,10 @@ th.coltab1 {
 	#description {
 		overflow-wrap: break-word;
 	}
+
+#col1 {
+	margin-top: 40px;
+}
 }
 
 @media (min-width: 768px){

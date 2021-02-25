@@ -7,7 +7,7 @@
 }
 
 #navigation {
-	margin-top: 92px;
+	margin-top: 60px;
 }
 
 #navigation a{
@@ -31,7 +31,7 @@ header h1 {
 }
 
 header{
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 }
 
 .navbar-toggle, .icon-bar{
@@ -71,4 +71,10 @@ a#red:hover {
 #bouton {
 	display: none;
 	color: #e54134;
+}
+
+@media (max-width: 767px){
+	header{
+	margin-bottom: 150px;
+}
 }

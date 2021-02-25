@@ -6,13 +6,13 @@
 
 function loadArticle() {
 	var larg = screen.width;
-	var hght = (screen.height)/4;
+	var hght = screen.height-50;
 	
 	x=document.getElementById("container");
 	y=document.getElementById("main-content");
 	z=document.getElementById("bouton");
 	
-	x.innerHTML= '<object type="text/html" data="modele_article.html" width='+String(larg)+' height='+String(larg)+'></object>';
+	x.innerHTML= '<object type="text/html" data="modele_article.html" width=100% height='+String(hght)+'></object>';
 	y.style.display="none";
 	z.style.display="block";
 }

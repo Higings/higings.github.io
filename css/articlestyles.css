@@ -1,10 +1,5 @@
-.img1 {
+.images {
 	width: 100%;
-	height: auto;
-}
-
-.img2 {
-	width: 33%;
 	height: auto;
 }
 
@@ -13,11 +8,99 @@
 	height: auto;
 }
 
-.img1, .img2, .img3 {
-	padding: 0 4px 4px 0;
+#two {
+	padding-top: 15px;
 }
 
 #cadre {
 	overflow: scroll;
 	overflow-x: hidden;
 }
+
+.perso-padding {
+	padding: 0 15px 15px 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.visible-phone {
+	display: none;
+}
+
+@media (max-width: 767px){
+	.hidden-phone {
+		display: none;
+	}
+
+	.visible-phone {
+		display:block;
+	}
+
+  #article {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+  }
+
+  .container-fluid {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: -30px;
+      bottom: 0;  
+      padding-right: 15px;
+      overflow-y: scroll;
+  }
+}
+
+/* Slideshow */
+/**, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+}*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.slider img {
+  width: 100%;
+  display: none;
+  height: 300px;
+}
+img.active {
+  display: block;
+  animation: fade 0.8s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cont-btn {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid #000;*/
+  /*box-shadow: 0 10px 10px rgba(0,0,0,0.3);*/
+  display: flex;
+  justify-content: center;
+}
+.btn-nav {
+  font-size: 25px;
+  margin: 0 15px;
+  cursor: pointer;
+  color: #e54134;
+}
+
